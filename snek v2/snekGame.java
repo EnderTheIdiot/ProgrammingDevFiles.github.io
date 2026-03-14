@@ -603,6 +603,7 @@ public class snekGame extends JPanel implements ActionListener, KeyListener {
 
         JLabel infoB3 = new JLabel("[ PRESS 1 TO START! ] ");
         JLabel infoB4 = new JLabel("[ PRESS 2 TO VIEW SCORES ]");
+        JLabel infoB5 = new JLabel("[ ARROW KEY = MOVE ]");
 
         // [MENU]: Start Game button
         infoWindow.addKeyListener(new KeyListener() {
@@ -702,6 +703,7 @@ public class snekGame extends JPanel implements ActionListener, KeyListener {
         infoWindow.add(hardDiff);
         infoWindow.add(infoB3);
         infoWindow.add(infoB4);
+        infoWindow.add(infoB5);
         infoWindow.setVisible(true);
     }
 }
