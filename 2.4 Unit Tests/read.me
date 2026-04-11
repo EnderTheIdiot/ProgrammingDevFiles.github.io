@@ -1,0 +1,84 @@
+Here are all the tests I have for the ListTester class, in order. 
+
+First Quarter Tests
+- Tests [ add(E e) ] with GenericObjectT1
+- Tests [ add(int index E element) ] with GenericObjectT1           
+- Tests [ addFirst(E, e) ] with GenericObjectT1
+- Tests [ addLast (E, e) ] with GenericObjectT1
+- Tests [ contains(Object 0) ] with GenericObjectT1
+- Tests [ element() ] with GenericObjectT1
+- Tests [ get() ] with GenericObjectT1
+- Tests [ getFirst() ] with GenericObjectT1
+- Tests [ getLast() ] with GenericObjectT1
+- Tests [ pop() ] with GenericObjectT1
+- Tests [ push(E e) ] with GenericObjectT1
+- Tests [ remove() ] with GenericObjectT1
+- Tests [ remove(Object o) ] with GenericObjectT1
+- Tests [ removeFirst() ] with GenericObjectT1
+- Tests [ removeLast() ] with GenericObjectT1
+- Tests to see if the objects added to the "check1" list are the same as the resulting testList1
+
+Second Quarter Tests
+- Tests [ add(E e) ] with GenericObjectT2
+- Tests [ add(int index E element) ] with GenericObjectT2          
+- Tests [ addFirst(E, e) ] with GenericObjectT2
+- Tests [ addLast (E, e) ] with GenericObjectT2
+- Tests [ contains(Object 0) ] with GenericObjectT2
+- Tests [ element() ] with GenericObjectT2
+- Tests [ get() ] with GenericObjectT2
+- Tests [ getFirst() ] with GenericObjectT2
+- Tests [ getLast() ] with GenericObjectT2
+- Tests [ pop() ] with GenericObjectT2
+- Tests [ push(E e) ] with GenericObjectT2
+- Tests [ remove() ] with GenericObjectT2
+- Tests [ remove(Object o) ] with GenericObjectT2
+- Tests [ removeFirst() ] with GenericObjectT2
+- Tests [ removeLast() ] with GenericObjectT2
+- Tests to see if the objects added to the "check1" list are the same as the resulting testList2
+
+Third Quarter Tests
+- Tests [ add(E e) ] with Strings
+- Tests [ add(int index E element) ] with Strings        
+- Tests [ addFirst(E, e) ] with Strings
+- Tests [ addLast (E, e) ] with Strings
+- Tests [ contains(Object 0) ] with Strings
+- Tests [ element() ] with Strings
+- Tests [ get() ] with Strings
+- Tests [ getFirst() ] with Strings
+- Tests [ getLast() ] with Strings
+- Tests [ pop() ] with Strings
+- Tests [ push(E e) ] with Strings
+- Tests [ remove() ] with Strings
+- Tests [ remove(Object o) ] with Strings
+- Tests [ removeFirst() ] with Strings
+- Tests [ removeLast() ] with Strings
+- Tests to see if the objects added to the "check1" list are the same as the resulting testList3
+
+Fourth Quarter Tests
+- Tests [ add(E e) ] with Intergers
+- Tests [ add(int index E element) ] with Intergers       
+- Tests [ addFirst(E, e) ] with Intergers
+- Tests [ addLast (E, e) ] with Intergers
+- Tests [ contains(Object 0) ] with Intergers
+- Tests [ element() ] with Intergers
+- Tests [ get() ] with Intergers
+- Tests [ getFirst() ] with Intergers
+- Tests [ getLast() ] with Intergers
+- Tests [ pop() ] with Intergers
+- Tests [ push(E e) ] with Intergers
+- Tests [ remove() ] with Intergers
+- Tests [ remove(Object o) ] with Intergers
+- Tests [ removeFirst() ] with Intergers
+- Tests [ removeLast() ] with Intergers
+- Tests to see if the objects added to the "check1" list are the same as the resulting testList3
+
+
+These should be able to catch any sort of regular issue. If one of these test fails, you should be able to 
+narrow it down to the object type, and the method that caused the problem.
+
+This is what I would personally use for testing, but it still leaves some of the work to the user. It's mainly
+just to make pin-pointing the problem in the LinkedList class easier. 
+
+(Note: If a bunch of tests are failing, then check to see which test failed first. If you still can't fix the issue,
+then the class might have a data leak, which if that's the case, god help you. Regardless of the issue, this should 
+still be able to find the general area of the problem.)
