@@ -1,0 +1,51 @@
+This project was one I developed for my senior project last year. Basically, the purpose of the program is to color and combine multiple layers of pre-made textures automatically, then combine those images together to create a new sprite. The program then takes a collection of those newly made sprites, and organizes them into a new file known as a Resource Pack, which is used to change the textures of the 3D sandbox game, Minecraft. I have already finished working on its basic functionality, but there are a bunch of features that I still want to add. 
+
+(Note: I'll will most likely rename the project during the development process.)
+
+
+Tech
+AWT Swing, I/O, New I/O, Image I/O\
+
+
+Challenges
+As for challenges, I am particularly worried about getting the sample feature -shows a sample of what the sprites will look like when run- to work. I tried to get it working before, but I ran out of time before I could. I hope to overcome this challenge by either searching up tutorials, or by using more modern tech, such as JavaFX. Another challenge I need to worry about is how I will convert the project into a .jar file. The program by itself works fine, but I wasn't able to get it as a .jar file, since it required inserting all the sprites into the resources file, which was a problem because I used the file that the sprite were stored in as a baseplate for the new pack. For overcoming this challenge, I can either manually move all resources into the file, and create a new way of building the new pack folder, or I could find some way to put the entire folder in the resources file, and still allow it to access the folder was a whole. 
+
+
+Preliminary Timeline
+1. Allow for switching between different sprite sets.
+2. Add sample screen that shows what the colors will looks like on the finished sprite.
+3. Add a simpler naming system.
+4. Add an instruction screen that guides you through the process of using the application.
+5. Allow for certain parts of the sprite to be removed or added.
+6. Convert the project into a .jar file.
+7. Customize the visuals of the program.
+8. Allow for easy changes and modification.
+
+
+
+User Requirements
+
+Java 21 and Minecraft Java Edition
+
+
+System Requirements
+Here are the basic system requirements for running Minecraft Java edition. 
+
+Minimum
+OS: Windows 10/11, macOS, or Linux OS.
+RAM: 4GB
+Processor: Intel Core i3-3210 / AMD A8-7600 CPU\
+Graphics: Intel 
+
+Recommended
+OS: Windows 10/11, macOS, or Linux OS.
+RAM: 8GB
+Processor: Intel Core i5-4690 / AMD A87600 APU 3.1 GHz
+Graphics: NVIDIA GeForce 700 Series / AMD Radeon Rx 200 Series with OpenGL 4.5
+
+
+Tool selection
+
+IDE: Visual Studio Code
+Version Control: GitHub
+Build Tools: Maven
